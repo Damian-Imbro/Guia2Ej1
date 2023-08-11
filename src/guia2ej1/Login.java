@@ -89,7 +89,7 @@ public class Login extends javax.swing.JFrame {
                 "12345678".equals(jPassword.getText())) {
             JOptionPane.showMessageDialog(this, "Bienvenido");
         } else {
-            JOptionPane.showMessageDialog(this, "Usuario y/o contraseña incorrecta");
+            JOptionPane.showMessageDialog(null,"Usuario y/o contraseña incorrecta", "Error",JOptionPane.ERROR_MESSAGE);
         }
         JTUsuario.setText("");
         jPassword.setText("");
